@@ -269,10 +269,14 @@ body.nav-active { overflow: hidden; }
 .about-card .card-icon {
   max-width: max-content;
   margin-inline: auto;
+  margin-top: 20px;
 }
 
 .about-card .card-title { margin-block: 16px 10px; }
 
+.tech-img{
+  object-fit: cover;
+}
 .title {
   color: var(--text-white);
   font-family: var(--fontFamily-recoleta);
@@ -883,7 +887,7 @@ body.nav-active { overflow: hidden; }
 
 .contact-content {
   display: grid;
-  gap: 60px;
+  gap: 200px;
 }
 
 .contact-form .input-field {
@@ -1400,7 +1404,12 @@ textarea.input-field {
     align-items: center;
   }
 
-
+  .contact-info{
+    margin-right: auto;
+    grid-template-columns: 0.8fr 1fr 0.6fr;
+    gap: 30px;
+    align-items: center;
+  }
 
   /**
    * BACK TO TOP
@@ -1454,7 +1463,6 @@ textarea.input-field {
   .service .container { max-width: 1200px; }
 
   .h1 { line-height: 1.1; }
-
 
 
   /**
